@@ -1,2 +1,3 @@
 # Simon-Says-Game
-Project in Progress......
+
+Make issues if you want to contribute

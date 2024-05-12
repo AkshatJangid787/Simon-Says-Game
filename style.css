@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(117deg, rgba(0,0,0,1) 0%, rgba(116,116,116,1) 100%);
+}
+
+h1{
+    font-size: 3vw;
+    padding-bottom: 2vw;
+    margin-left: 2vw;
+    color: white;
+}
+p{  
+    font-size: 2vw;
+    margin-left: 1vw;
+    padding-bottom: 3vw;
+    color: white;
+}
+
+.box-container {
+    width: 30vw;
+    height: 30vw;
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 2vw;
+    padding-top: 2vw;   
+    margin-top: 4vw;
+}  
+
+.btn{
+    height: 12vw;
+    width: 12vw;
+    border-radius: 10%;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.Red{
+    background-color: rgb(223, 62, 62);
+}
+
+.Green{
+    background-color: rgb(25, 98, 25);
+}
+
+.Yellow{
+    background-color: rgb(204, 204, 81);
+}
+
+.Orange{
+    background-color: rgb(214, 141, 5);
+}
+
+.flash{
+    background-color: white;
+}
+
+.p {
+    margin-left: 1vw;
+}
+
+.userFlash {
+    background-color: blueviolet;
+}
+
+
+
+@media (max-width: 760px) {
+    .box-container {
+        width: 70vw;
+        height: 70vw;
+        /* background-color: red; */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-left: 5vw;
+        padding-top: 5vw;   
+        margin-top: 10vw;
+    }
+
+    h1{
+        font-size: 6vw;
+        padding-bottom: 2vw;
+        margin-left: 9vw;
+        color: white;
+    }
+    p{  
+        font-size: 4vw;
+        margin-left: 7vw;
+        padding-bottom: 2vw;
+        color: white;
+    }
+
+    .btn{
+        height: 25vw;
+        width: 25vw;
+        border-radius: 10%;
+        border: 2px solid rgb(255, 255, 255);
+    }
+
+    .Red{
+        background-color: rgb(223, 62, 62);
+    }
+    
+    .Green{
+        background-color: rgb(25, 98, 25);
+    }
+    
+    .Yellow{
+        background-color: rgb(204, 204, 81);
+    }
+    
+    .Orange{
+        background-color: rgb(214, 141, 5);
+    }
+
+    .flash{
+        background-color: white;
+    }
+
+    .userFlash {
+        background-color: blueviolet;
+    }
+        
+}
